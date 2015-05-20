@@ -9,11 +9,11 @@ Here are some examples:
 
 **Importing a single file**
 
-    ConfluenceWordDocImporter.exe --file "C:\hello.docx" -username bob --password secret -parentPage "http://myWiki/display/theSpaceName/Name+of+the+page"
+    ConfluenceWordDocImporter.exe --file "C:\hello.docx" --username bob --password secret --parentPage "http://myWiki/display/theSpaceName/Name+of+the+page"
 
 **Importing all doc and docx files from a folder** (not recursive)
 
-    ConfluenceWordDocImporter.exe --file "C:\MyDocuments" -username bob --password secret -parentPage "http://myWiki/display/theSpaceName/Name+of+the+page"
+    ConfluenceWordDocImporter.exe --file "C:\MyDocuments" --username bob --password secret --parentPage "http://myWiki/display/theSpaceName/Name+of+the+page"
 
 **How is it done?**
 
